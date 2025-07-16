@@ -1,0 +1,686 @@
+      html {
+         scroll-behavior: smooth;
+      }
+
+      .myBody {
+         margin: 0px;
+         font-family: "Raleway", sans-serif;
+      }
+
+      .main-container {
+
+         background-image: url(img/hero.jpg);
+         min-height: 100vh;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: bottom;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+
+      h1 {
+         font-size: 96px;
+         font-weight: bold;
+         color: white;
+         margin: 0px;
+         margin-block-start: 0;
+         margin-block-end: 0;
+         text-align: center;
+      }
+
+      p {
+         font-size: 24px;
+         color: white;
+         height: 350px;
+         margin: 0;
+         margin-block-start: 0;
+         margin-block-end: 0;
+      }
+
+      header {
+         display: flex;
+         justify-content: space-between;
+         padding: 16px 50px;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+      }
+
+      .logo {
+         width: 64px;
+         height: 64px;
+      }
+
+      .navLink {
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+         flex-wrap: wrap-reverse;
+         gap: 30px;
+      }
+
+      .navLink a {
+         color: white;
+         text-decoration: none;
+         font-weight: normal;
+         font-size: 24px;
+         filter: drop-shadow(2px 7px 9px rgba(0, 0, 0, 0.5));
+      }
+
+      .navLink a:hover {
+         color: rgb(159, 8, 9);
+      }
+
+      .navLink a:hover {
+         text-decoration: none;
+      }
+
+      .order-btn {
+         color: white !important;
+         background-color: rgb(159, 8, 9);
+         padding-top: 5px;
+         padding-bottom: 5px;
+      }
+
+      .phone a {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: .4rem .75rem;
+         border: 2px solid #fff;
+         gap: 5px;
+         border-radius: 10px;
+         color: white;
+         text-decoration: none;
+         font-weight: normal;
+         font-size: 24px;
+         filter: drop-shadow(2px 7px 9px rgba(0, 0, 0, 0.5));
+      }
+
+      .phone a:hover {
+         text-decoration: none;
+
+      }
+
+      h2 {
+         color: rgb(159, 9, 8);
+         font-size: 80px;
+         font-weight: bold;
+         text-align: center;
+         margin-block-start: 0;
+         margin-block-end: 0;
+      }
+
+      .to {
+         display: flex;
+         flex-direction: column;
+         gap: 64px;
+         padding: 120px;
+         flex-grow: 1;
+      }
+
+      .How-to h2 {
+         margin-bottom: 64px;
+         margin-top: 0px;
+      }
+
+      .icons {
+         width: 30%;
+         object-fit: cover;
+      }
+
+      .order {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         gap: 16px;
+      }
+
+      .order-step {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: 16px;
+         font-family: "Economica", sans-serif;
+         font-size: 56px;
+         font-weight: bold;
+         padding-top: 16px;
+         text-align: center;
+      }
+
+      .section-menu {
+         position: relative;
+         background-image: url(./img/section_our_menu_bg.jpg);
+         background-position: bottom;
+         background-size: cover;
+         min-width: 100%;
+      }
+
+      .our-menu {
+         padding-block: 120px 10px;
+         padding-bottom: 120px;
+      }
+
+      .o-menu {
+         margin-bottom: 64px;
+         margin-top: 0px;
+      }
+
+      .section-img {
+         width: 30%;
+         border-radius: 100px;
+      }
+
+      .day-card-container {
+         padding-inline: 120px;
+         display: flex;
+         flex-direction: column;
+         gap: 56px;
+      }
+
+      .day-card {
+         display: flex;
+         align-items: center;
+         justify-content: flex-start;
+         gap: 80px;
+         width: 100%;
+
+      }
+
+      .day-card.reversed-card img {
+         order: 1;
+      }
+
+      .day-card.reversed-card {
+         justify-content: flex-end;
+      }
+
+      .prices {
+         display: flex;
+         justify-content: space-between;
+         gap: 200px;
+         padding: 0px;
+         padding-bottom: 8px;
+         font-weight: bold;
+         color: #675E54;
+         font-size: 32px;
+      }
+
+      h3 {
+         font-family: "Economica", sans-serif;
+         font-size: 56px;
+         font-weight: bold;
+         margin-block-start: 0;
+         margin-block-end: 0;
+         padding: 0px;
+         padding-bottom: 16px;
+      }
+
+      .container {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         padding-top: 120px;
+      }
+
+      .container-address {
+         margin-bottom: 8px;
+         margin-top: 0px;
+      }
+
+      .container-k {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 24px;
+         padding-bottom: 64px;
+
+      }
+
+      .map-marker {
+         height: 30px;
+      }
+
+      .google-maps {
+         margin-bottom: 8px;
+         margin-top: 0px;
+
+      }
+
+      footer {
+         background-color: rgb(10, 20, 30);
+         padding: 30px 50px;
+      }
+
+      .s-logo-text {
+         height: 44px;
+      }
+
+      .s-logo {
+         display: none;
+      }
+
+      .footer_1 {
+         display: flex;
+         justify-content: space-between;
+         gap: 16px;
+      }
+
+      .socialmedia-logo {
+         display: flex;
+         gap: 10px;
+      }
+
+      .socialmedia-img {
+         width: 40px;
+         height: 40px;
+      }
+
+      /*Tablet*/
+      @media(max-width:872px) {
+
+         .hide-mobil {
+            display: none;
+            align-items: flex-start;
+            gap: 15px;
+         }
+
+         header {
+            padding: 16px 28px;
+         }
+
+         h1 {
+            font-size: 72px;
+            text-align: center;
+         }
+
+         p {
+            font-size: 20px;
+            height: 50px;
+            text-align: center;
+         }
+
+      }
+
+      @media(max-width:872px) {
+
+         .phone a {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+         }
+      }
+
+      @media(max-width:872px) {
+
+         h2 {
+            font-size: 64px;
+         }
+      }
+
+      @media(max-width:872px) {
+
+         .to {
+            padding: 56px 24px;
+         }
+
+         .order {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 16px;
+         }
+
+         .order-step {
+            font-size: 32px;
+            padding-top: 8px;
+         }
+      }
+
+      @media(max-width:972px) {
+
+         .o-menu {
+            margin-bottom: 48px;
+            margin-top: 0px;
+         }
+
+         .our-menu {
+            padding-block: 96px;
+         }
+
+         h3 {
+            font-size: 32px;
+            padding: 0px;
+            padding-bottom: 16px;
+
+         }
+
+         .prices {
+            display: flex;
+            justify-content: space-between;
+            font-size: 24px;
+            padding: 0px;
+            gap: 88px;
+            padding-bottom: 8px;
+         }
+
+         .section-img {
+            width: 352px;
+            height: 352px;
+         }
+      }
+
+      @media (max-width: 972px) {
+
+         .day-card-container {
+            padding-inline: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+         }
+
+         .day-card {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 24px;
+
+         }
+
+         .day-card.reversed-card img {
+            order: 1;
+         }
+
+         .day-card.reversed-card {
+            justify-content: flex-end;
+         }
+      }
+
+      @media(max-width:872px) {
+
+         .container {
+            padding-top: 96px;
+            padding-inline: 24px;
+         }
+
+         .container-address {
+            margin-bottom: 8px;
+            margin-top: 0px;
+         }
+
+         .container-k {
+
+            font-size: 20px;
+            padding-bottom: 48px;
+         }
+
+         .google-maps {
+            margin-bottom: 4px;
+            margin-top: 0px;
+            width: 100%;
+            height: 400px;
+
+         }
+      }
+
+      @media(max-width:872px) {
+
+         footer {
+            padding: 16px 28px;
+         }
+
+         .footer_1 {
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+         }
+
+         .socialmedia-logo {
+            display: flex;
+            gap: 5px;
+         }
+
+         .s-logo-text {
+            height: 44px;
+         }
+
+         .socialmedia-img {
+            width: 40px;
+            height: 40px;
+         }
+
+      }
+
+
+      /*Mobil*/
+      @media(max-width:584px) {
+
+
+         .hide-mobil {
+            display: none;
+            align-items: flex-start;
+            gap: 15px;
+         }
+
+
+         header {
+            padding: 16px 28px;
+         }
+
+
+         h1 {
+            font-size: 44px;
+            text-align: center;
+         }
+
+         p {
+            font-size: 16px;
+            height: 50px;
+            text-align: center;
+         }
+
+      }
+
+      @media(max-width:460px) {
+
+         .phone a {
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+         }
+      }
+
+      @media(max-width:702px) {
+
+         h2 {
+            font-size: 40px;
+         }
+      }
+
+      @media(max-width:702px) {
+
+         .to {
+            padding: 72px 5px;
+         }
+
+         .order {
+            flex-direction: column;
+            gap: 32px;
+         }
+
+         .order-step {
+            font-size: 32px;
+            padding-top: 8px;
+         }
+      }
+
+      @media(max-width:702px) {
+
+         .o-menu {
+            margin-bottom: 40px;
+            margin-top: 0px;
+         }
+
+         .our-menu {
+            padding-block: 72px;
+         }
+
+         h3 {
+            font-size: 32px;
+            padding: 0px;
+            padding-bottom: 16px;
+         }
+
+         .prices {
+            font-size: 24px;
+            gap: 128px;
+            padding: 0px;
+            padding-bottom: 8px;
+         }
+
+         .section-img {
+            width: 352px;
+            height: 352px;
+         }
+      }
+
+      @media (max-width: 702px) {
+
+
+
+         .day-card {
+            flex-direction: column;
+            gap: 24px;
+         }
+
+         .day-card.reversed-card img {
+            order: 0;
+         }
+      }
+
+      @media (max-width: 376px) {
+         .prices {
+            font-size: 24px;
+            gap: 50px;
+            padding: 0px;
+            padding-bottom: 8px;
+         }
+
+         .section-img {
+            width: 200px;
+            height: 200px;
+         }
+      }
+
+      @media(max-width: 315px) {
+
+         .phone a {
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2px;
+         }
+      }
+
+      @media(max-width:702px) {
+
+         .container {
+            padding-top: 72px;
+            padding-inline: 24px;
+
+         }
+
+         .container-address {
+            margin-bottom: 8px;
+            margin-top: 0px;
+         }
+
+         .container-k {
+
+            font-size: 16px;
+            padding-bottom: 40px;
+            padding-inline: 10px;
+         }
+
+         .map-marker {
+            height: 30px;
+         }
+
+         .google-maps {
+            margin-bottom: 0px;
+            margin-top: 0px;
+
+         }
+      }
+
+      @media(max-width:700px) {
+
+         .google-maps {
+            margin-bottom: 4px;
+            margin-top: 0px;
+
+         }
+      }
+
+      @media(max-width:700px) {
+
+         footer {
+            padding: 16px 28px;
+         }
+
+         .footer_1 {
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+         }
+
+         .socialmedia-logo {
+            display: flex;
+            gap: 5px;
+         }
+
+         .socialmedia-img {
+            width: 32px;
+            height: 32px;
+         }
+
+         .s-logo-text {
+            display: none;
+         }
+
+         .s-logo {
+            display: inline;
+            height: 40px;
+            width: 40px;
+
+
+         }
+
+
+
+      }
+
+      @media(max-width:384px) {
+         .container-k {
+            font-size: 14px;
+         }
+
+         .map-marker {
+            height: 16px;
+         }
+      }
+
+      @media(max-width:337px) {
+         .container-k {
+            font-size: 10px;
+         }
+      }
